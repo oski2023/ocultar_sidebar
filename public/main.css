@@ -1,0 +1,28 @@
+/* Estilos básicos para el layout index*/
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+.sidebar {
+    width: 250px;
+    height: 100vh;
+    background-color: #333;
+    color: white;
+    padding: 15px;
+    position: fixed;
+}
+.hidden {
+    display: none; /* Ocultar sidebar */
+}
+.content {
+    margin-left: 270px;
+    padding: 20px;
+}
+button {
+    padding: 10px 20px;
+    background-color: #007BFF;
+    color: white;
+    border: none;
+    cursor: pointer;
+    margin-top: 20px;
+}
